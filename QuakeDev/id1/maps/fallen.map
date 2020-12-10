@@ -2797,12 +2797,6 @@
 }
 // entity 1
 {
-"classname" "info_player_start"
-"origin" "704 464 -280"
-"angle" "90"
-}
-// entity 2
-{
 "classname" "func_door"
 "targetname" "locked_door"
 "spawnflags" "16"
@@ -2817,8 +2811,145 @@
 ( 1360 704 -416 ) ( 1360 704 -415 ) ( 1360 705 -416 ) 128_grey_1 0 0 0 1 1
 }
 }
+// entity 2
+{
+"classname" "info_player_start"
+"origin" "48 432 -88"
+"angle" "90"
+}
 // entity 3
 {
+"classname" "monster_army"
+"origin" "880 1520 -408"
+"angle" "180"
+}
+// entity 4
+{
+"classname" "monster_army"
+"origin" "800 1296 -408"
+"angle" "180"
+}
+// entity 5
+{
+"classname" "monster_knight"
+"origin" "1648 1440 -408"
+"angle" "180"
+}
+// entity 6
+{
+"classname" "monster_army"
+"origin" "1408 544 -408"
+"angle" "90"
+}
+// entity 7
+{
+"classname" "monster_dog"
+"origin" "1344 400 -408"
+}
+// entity 8
+{
+"classname" "monster_knight"
+"origin" "1088 896 -248"
+"angle" "270"
+}
+// entity 9
+{
+"classname" "monster_ogre"
+"origin" "592 672 -280"
+"angle" "90"
+}
+// entity 10
+{
+"classname" "monster_army"
+"origin" "368 624 -568"
+"angle" "0"
+}
+// entity 11
+{
+"classname" "monster_army"
+"origin" "432 896 -648"
+}
+// entity 12
+{
+"classname" "monster_army"
+"origin" "448 1120 -728"
+}
+// entity 13
+{
+"classname" "monster_knight"
+"origin" "1824 1152 -808"
+"angle" "180"
+}
+// entity 14
+{
+"classname" "monster_ogre"
+"origin" "2384 1152 -696"
+"angle" "180"
+}
+// entity 15
+{
+"classname" "monster_dog"
+"origin" "2160 1168 -744"
+"angle" "180"
+}
+// entity 16
+{
+"classname" "monster_army"
+"origin" "2288 1312 -728"
+"angle" "270"
+}
+// entity 17
+{
+"classname" "monster_army"
+"origin" "2304 944 -728"
+"angle" "90"
+}
+// entity 18
+{
+"classname" "trigger_changelevel"
+// brush 0
+{
+( 2976 1120 -720 ) ( 2976 1121 -720 ) ( 2976 1120 -719 ) 128_blue_1 0 0 0 1 1
+( 2976 1120 -720 ) ( 2976 1120 -719 ) ( 2977 1120 -720 ) 128_blue_1 0 0 0 1 1
+( 2976 1120 -720 ) ( 2977 1120 -720 ) ( 2976 1121 -720 ) 128_blue_1 0 0 0 1 1
+( 3024 1168 -704 ) ( 3024 1169 -704 ) ( 3025 1168 -704 ) 128_blue_1 0 0 0 1 1
+( 3024 1168 -704 ) ( 3025 1168 -704 ) ( 3024 1168 -703 ) 128_blue_1 0 0 0 1 1
+( 3024 1168 -704 ) ( 3024 1168 -703 ) ( 3024 1169 -704 ) 128_blue_1 0 0 0 1 1
+}
+}
+// entity 19
+{
+"classname" "item_spikes"
+"origin" "1168 112 -432"
+}
+// entity 20
+{
+"classname" "item_shells"
+"origin" "880 464 -304"
+}
+// entity 21
+{
+"classname" "item_health"
+"origin" "400 832 -672"
+}
+// entity 22
+{
+"classname" "item_shells"
+"origin" "1296 1056 -832"
+}
+// entity 23
+{
 "classname" "item_key1"
-"origin" "496 432 -280"
+"origin" "496 400 -280"
+}
+// entity 24
+{
+"classname" "item_armor1"
+"origin" "720 736 -264"
+}
+// entity 25
+{
+"classname" "item_armor1"
+"origin" "1664 1360 -432"
+"angle" "180"
 }
